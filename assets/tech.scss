@@ -1,0 +1,39 @@
+body {
+    background-color: #D5DF76;
+}
+
+.row {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    #left {
+        a {
+            color: black;
+            text-decoration: underline;
+        }
+        p {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);          
+        }
+    }
+    #right {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+#row1 {
+    background-color: #F46F5B;
+}
+
+#row2 {
+    background-color: #AE74B4;
+}
+
+#row3 {
+    background-color: #48688D;
+}
