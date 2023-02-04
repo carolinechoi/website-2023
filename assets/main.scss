@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+$header: 'Jost';
+$green: #CFCDAA;
+
+body {
+    background-color: $green;
+    color: black;
+    font-family: 'Jost';
+    cursor: url('../images/cursor.png'), auto;
+}
+
+::selection {
+    background: #E98AC9;
+}  
+
+#span {
+    font-weight: medium;
+    font-size: 30px;
+}
+
+.navbar {
+    .menu {
+        font-weight: medium;
+        font-size: 30px;
+        padding-right: 20px;
+    }
+}
+
+.meat {
+    padding-top: 70px;
+    #image {
+        width: 100%;
+    }
+    #socials-block {
+        text-align: center;
+        padding-top: 20px;
+        #socials {
+            color: black;
+            text-decoration: underline;
+            padding: 5px;
+        }    
+    }
+    #work-link {
+        color: black;
+        text-decoration: none;
+    }
+    #work-link:hover {
+        text-decoration: underline;
+    }
+}
