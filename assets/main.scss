@@ -3,11 +3,21 @@
 $header: 'Jost';
 $green: #CFCDAA;
 
+html {
+    cursor: url('../images/cursor.png'), auto;
+    a {
+        cursor: url('../images/cursor.png'), auto;
+    }
+}
+
+a:visited {
+    color: black;
+  }
+  
 body {
-    background-color: $green;
+    // background-color: $green;
     color: black;
     font-family: 'Jost';
-    cursor: url('../images/cursor.png'), auto;
 }
 
 ::selection {
@@ -24,15 +34,26 @@ body {
         font-weight: medium;
         font-size: 30px;
         padding-right: 20px;
+        .dropdown-item{
+            background-color: transparent;
+            color: grey;
+        }
+        .dropdown-item:hover {
+                color: black;
+        }
     }
-    #current {
-        font-style: italic;
-        color: #F47D96;
-    }
+    float: left;
+    padding-top: 4%;
+    padding-left: 50px;
 }
 
 .meat {
-    padding-top: 70px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    #title-card {
+        font-size: 20px;
+    }
     #image {
         width: 100%;
     }
@@ -44,6 +65,10 @@ body {
             text-decoration: underline;
             padding: 5px;
         }    
+        #socials:hover{
+            text-decoration: none;
+            color: #DB5C53;
+        }
     }
     #work-link {
         color: black;
@@ -54,6 +79,18 @@ body {
         color: #F47D96;
     }
     #highlight {
-        color: #F47D96;
+        color: #5890e3;
     }
+    #desc {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-size: 13px;
+        a {
+            color: #6455A7;
+        }
+    }
+}
+
+#selected {
+    color: #7DBCD1;
 }
