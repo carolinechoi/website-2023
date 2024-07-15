@@ -2,6 +2,7 @@
 
 $header: 'Jost';
 $green: #CFCDAA;
+$red: #DB5C53;
 
 html {
     cursor: url('../images/cursor.png'), auto;
@@ -21,7 +22,7 @@ body {
 }
 
 ::selection {
-    background: #E98AC9;
+    background: $red;
 }  
 
 #span {
@@ -67,7 +68,7 @@ body {
         }    
         #socials:hover{
             text-decoration: none;
-            color: #DB5C53;
+            color: $red;
         }
     }
     #work-link {
