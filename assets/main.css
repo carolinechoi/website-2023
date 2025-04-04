@@ -95,7 +95,8 @@ body {
 }
 
 .meat #desc a {
-  color: #88ffa7;
+  color: black;
+  text-decoration: underline;
 }
 
 #selected {
