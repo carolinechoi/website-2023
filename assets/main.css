@@ -13,36 +13,34 @@ a:visited {
 
 body {
   color: black;
-  font-family: 'Jost';
+  font-family: 'Arial';
 }
 
 ::selection {
-  background: #DB5C53;
+  background: #fff6ba;
 }
 
 #span {
   font-weight: medium;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .navbar {
   float: left;
-  padding-top: 4%;
-  padding-left: 50px;
+}
+
+.navbar .nav-item {
+  color: red;
 }
 
 .navbar .menu {
   font-weight: medium;
-  font-size: 30px;
+  font-size: 12px;
   padding-right: 20px;
 }
 
 .navbar .menu .dropdown-item {
   background-color: transparent;
-  color: grey;
-}
-
-.navbar .menu .dropdown-item:hover {
   color: black;
 }
 
@@ -57,7 +55,7 @@ body {
 }
 
 .meat #image {
-  width: 100%;
+  width: 80%;
 }
 
 .meat #socials-block {
@@ -97,9 +95,13 @@ body {
 }
 
 .meat #desc a {
-  color: #6455A7;
+  color: #88ffa7;
 }
 
 #selected {
-  color: #7DBCD1;
+  color: #DB5C53;
+}
+
+#front-page-blurb {
+  font-size: 13px;
 }
