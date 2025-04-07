@@ -46,17 +46,28 @@ body {
         }
     }
     float: left;
+    .nav-item .nav-link {
+        color: black !important;
+    }      
+    .navbar-brand {
+        font-weight: bold;
+    }
+      
 }
 
 .meat {
     padding-top: 5%;
     padding-left: 10%;
     padding-bottom: 20px;
+    a {
+        color: black;
+        text-decoration: underline;
+    }
     #title-card {
         font-size: 20px;
     }
     #image {
-        width: 80%;
+        width: 100%;
     }
     #socials-block {
         text-align: center;
@@ -83,7 +94,6 @@ body {
         color: #5890e3;
     }
     #desc {
-        padding-top: 20px;
         padding-bottom: 40px;
         font-size: 13px;
         a {

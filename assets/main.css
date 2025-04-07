@@ -44,10 +44,23 @@ body {
   color: black;
 }
 
+.navbar .nav-item .nav-link {
+  color: black !important;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+}
+
 .meat {
   padding-top: 5%;
   padding-left: 10%;
   padding-bottom: 20px;
+}
+
+.meat a {
+  color: black;
+  text-decoration: underline;
 }
 
 .meat #title-card {
@@ -55,7 +68,7 @@ body {
 }
 
 .meat #image {
-  width: 80%;
+  width: 100%;
 }
 
 .meat #socials-block {
@@ -89,7 +102,6 @@ body {
 }
 
 .meat #desc {
-  padding-top: 20px;
   padding-bottom: 40px;
   font-size: 13px;
 }
