@@ -7,12 +7,12 @@ $neon-green: #88ffa7;
 $pink: #FF1dcf;
 $yellow: #fff6ba;
 
-html {
-    cursor: url('../images/cursor.png'), auto;
-    a {
-        cursor: url('../images/cursor.png'), auto;
-    }
-}
+// html {
+//     cursor: url('../images/cursor02.png'), auto;
+//     a {
+//         cursor: url('../images/cursor02.png'), auto;
+//     }
+// }
 
 a:visited {
     color: black;
@@ -114,3 +114,17 @@ body {
 #caro-pic {
     width: 50%;
 }
+
+.photo-grid {
+    column-count: 3;
+    column-gap: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+  
+.photo-grid img {
+width: 100%;
+display: block;
+margin-bottom: 10px;
+break-inside: avoid;
+}  
